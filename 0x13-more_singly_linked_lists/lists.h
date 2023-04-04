@@ -6,7 +6,7 @@
  * @n: integer
  * @next: points to the next node
  * 
- * struct listin_s -singly linked list
+ * struct listint_s -singly linked list
  * Description: singly linked list node
  *
  */
@@ -34,4 +34,4 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 int _putchar(char c);
 
-#endif
+#endif /*LISTS_H*/
