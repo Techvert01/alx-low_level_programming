@@ -3,9 +3,9 @@
 
 /**
  * free_listint2- function that frees a listint_t list
- * @head- a double pointer of list
+ * @head: a double pointer of list
  *
- * Return- null
+ * Return: null
  */
 
 void free_listint2(listint_t **head)
