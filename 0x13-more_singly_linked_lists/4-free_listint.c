@@ -2,20 +2,21 @@
 #include <stdlib.h>
 
 /**
- * free_listint - free a listint_t list
+ * free_listint - frees a listint_t list
+ *
  * @head: the head of the list
  *
- *
- * Return: Null if error
+ * Return: NULL if error
  */
+
 void free_listint(listint_t *head)
 {
 	listint_t *next;
-	while (head != NULL
+
+	while (head != NULL)
 	{
 		next = head->next;
 		free(head);
 		head = next;
-		}
+	}
 }
-
