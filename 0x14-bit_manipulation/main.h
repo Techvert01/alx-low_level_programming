@@ -11,3 +11,4 @@ int get_endianness(void);
 int _putchar(char c);
 int _atoi(const char *s);
 
+#endif
