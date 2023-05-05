@@ -6,7 +6,8 @@
  *
  * Return: changed numbers, or 0
  */
-unassigned int binary_to_uint(const char *b)
+
+unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int j;
