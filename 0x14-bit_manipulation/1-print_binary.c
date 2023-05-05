@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * _ power - calculate (base and power)
-* @power: power of the exponetial
- * @base: base of the exponetial
-* Return: numb of base and power
+ * _power - calculate (base and power)
+ * @base: base of the exponet
+ * @pow: power of the exponet
+ * Return: value of base and power
  */
 unsigned long int _power(unsigned int base, unsigned int pow)
 {
@@ -17,8 +16,8 @@ unsigned long int _power(unsigned int base, unsigned int pow)
 	return (num);
 }
 /**
- * print_binary - print the binary digit of a num
- * @n: num of orented
+ * print_binary - display the binary rep of a num
+ * @n: num of prented
  * Return: void
  */
 void print_binary(unsigned long int n)
@@ -45,4 +44,3 @@ void print_binary(unsigned long int n)
 		dev >>= 1;
 	}
 }
-
