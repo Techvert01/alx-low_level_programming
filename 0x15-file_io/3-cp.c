@@ -20,8 +20,7 @@ void check97(int argc)
 /**
  * check98 - confirms file_from exists and can be read
  * @check: check if true of false
- 
- * @fd_to: file descriptor of file_to, or -1
+  * @fd_to: file descriptor of file_to, or -1
  *@file: file_from name
  * @fd_from: file descriptor of file_from, or -1
 
@@ -45,7 +44,6 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 * @file: file_to name
  * @fd_from: file descriptor of file_from, or -1
  * @check: checks if true of false
- 
  * @fd_to: file descriptor of file_to, or -1
  *
  * Return: void
