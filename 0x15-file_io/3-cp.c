@@ -77,7 +77,7 @@ void check100(int check, int fd)
 	}
 }
 /**
- * main - copy the content of a file to another file.
+ * main - opies the content of a file to another file.
  * @argc: number of arguments passed
  * @argv: array of pointers to the arguments
  *
@@ -112,4 +112,3 @@ int main(int argc, char *argv[])
 	check100(close_from, fd_from);
 	return (0);
 }
-
